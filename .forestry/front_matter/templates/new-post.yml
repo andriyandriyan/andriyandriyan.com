@@ -1,0 +1,12 @@
+---
+label: New Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+pages:
+- content/blog/upload-file-ke-firebase-storage-menggunakan-lumen/upload-file-ke-firebase-storage-menggunakan-lumen.md
