@@ -27,7 +27,7 @@ $ composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
 
 ### Install Dependency
 
-Ada 2 dependency yang kita butuhkan yaitu `league/flysystem` dan 
+Ada 2 dependency yang kita butuhkan yaitu `league/flysystem` dan
 `superbalist/laravel-google-cloud-storage`
 
 ```bash
@@ -90,14 +90,6 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
-        's3' => [
-            'driver' => 's3',
-            'key' => env('AWS_ACCESS_KEY_ID'),
-            'secret' => env('AWS_SECRET_ACCESS_KEY'),
-            'region' => env('AWS_DEFAULT_REGION'),
-            'bucket' => env('AWS_BUCKET'),
-            'url' => env('AWS_URL'),
-        ],
         'gcs' => [
             'driver' => 'gcs',
             'project_id' => env('GOOGLE_CLOUD_PROJECT_ID', 'your-project-id'),
@@ -109,5 +101,4 @@ return [
         ],
     ],
 ];
-
 ```
