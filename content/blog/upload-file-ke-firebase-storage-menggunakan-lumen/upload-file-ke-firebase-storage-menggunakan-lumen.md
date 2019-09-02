@@ -25,6 +25,10 @@ Buat sebuah proyek lumen baru dengan mengetikan perintah berikut pada terminal k
 $ composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
 ```
 
+### Membuat Proyek Firebase
+
+Kunjukin link Firebase Console [disini](https://console.firebase.google.com/) kemudian buat sebuah proyek baru dan beri nama proyek tersebuat sesuai keinginan kalian.
+
 ### Install Dependency
 
 Ada 2 dependency yang kita butuhkan yaitu `league/flysystem` dan
@@ -105,9 +109,6 @@ return [
 
 Buat variabel baru pada file `.env`
 
-```
-GOOGLE_CLOUD_PROJECT_ID=
-GOOGLE_CLOUD_KEY_FILE=
-GOOGLE_CLOUD_STORAGE_BUCKET=
-```
-aasd
+    GOOGLE_CLOUD_PROJECT_ID=
+    GOOGLE_CLOUD_KEY_FILE=
+    GOOGLE_CLOUD_STORAGE_BUCKET=
