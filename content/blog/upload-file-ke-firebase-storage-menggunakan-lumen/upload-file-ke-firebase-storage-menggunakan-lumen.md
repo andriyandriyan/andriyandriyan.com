@@ -14,3 +14,11 @@ Firebase Storage merupakan layanan cloud storage dari Firebase. Firebase Storage
 ### Firebase Storage dengan Lumen
 
 Pada dokumentasi Laravel, Laravel tidak menyediakan provider untuk meng-integrasikan Firebase Storage dengan Laravel/Lumen. Kita perlu menggunakan library tambahan yaitu `laravel-google-cloud-storage`.
+
+# Langkah-langkah
+
+### Buat Proyek Baru
+
+Buat sebuah proyek lumen baru dengan mengetikan perintah berikut pada terminal kalian
+
+    composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
