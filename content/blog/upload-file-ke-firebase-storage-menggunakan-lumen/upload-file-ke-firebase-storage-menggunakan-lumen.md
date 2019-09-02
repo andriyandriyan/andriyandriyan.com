@@ -21,4 +21,6 @@ Pada dokumentasi Laravel, Laravel tidak menyediakan provider untuk meng-integras
 
 Buat sebuah proyek lumen baru dengan mengetikan perintah berikut pada terminal kalian
 
-    composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
+```bash
+$ composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
+```
