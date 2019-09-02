@@ -17,7 +17,7 @@ export default () => (
 		{' '}
 		Hosted on
 		{' '}
-		<a href="https://zeit.co">ZEIT Now</a>
+		<a href="https://www.netlify.com/">Netlify</a>
 		.
 	</Footer>
 )
