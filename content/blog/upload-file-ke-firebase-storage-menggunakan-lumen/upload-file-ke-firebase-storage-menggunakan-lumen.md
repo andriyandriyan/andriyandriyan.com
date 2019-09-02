@@ -102,3 +102,12 @@ return [
     ],
 ];
 ```
+
+Buat variabel baru pada file `.env`
+
+```
+GOOGLE_CLOUD_PROJECT_ID=
+GOOGLE_CLOUD_KEY_FILE=
+GOOGLE_CLOUD_STORAGE_BUCKET=
+```
+
