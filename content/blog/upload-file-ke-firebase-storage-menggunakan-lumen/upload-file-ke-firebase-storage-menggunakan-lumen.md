@@ -24,3 +24,11 @@ Buat sebuah proyek lumen baru dengan mengetikan perintah berikut pada terminal k
 ```bash
 $ composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
 ```
+
+### Install Dependency
+
+Ada 2 dependency yang kita butuhkan yaitu `league/flysystem` dan 
+`superbalist/laravel-google-cloud-storage`
+```bash
+$ composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
+```
