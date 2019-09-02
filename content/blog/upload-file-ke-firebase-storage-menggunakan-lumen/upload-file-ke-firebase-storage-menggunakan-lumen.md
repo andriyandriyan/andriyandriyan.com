@@ -29,6 +29,13 @@ $ composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
 
 Ada 2 dependency yang kita butuhkan yaitu `league/flysystem` dan 
 `superbalist/laravel-google-cloud-storage`
+
 ```bash
-$ composer create-project --prefer-dist laravel/lumen lumen-firebase-storage
+$ composer require league/flysystem superbalist/laravel-google-cloud-storage
+```
+
+Kemudian daftarkan service provider di `bootstrap/app.php`
+
+```php
+$app->register(Superbalist\LaravelGoogleCloudStorage\GoogleCloudStorageServiceProvider::class);
 ```
