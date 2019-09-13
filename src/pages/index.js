@@ -10,7 +10,7 @@ const BlogIndex = ({ data }) => {
 	return (
 		<Layout>
 			<SEO
-				title="All Posts"
+				title="Fullstack Software Developer"
 				keywords={['blog', 'software developer', 'front end', 'back end']}
 			/>
 			{posts.map(({ node }) => {
