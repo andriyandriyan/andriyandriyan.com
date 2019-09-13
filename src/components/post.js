@@ -14,9 +14,9 @@ export const HomeButton = styled(Link)`
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
-	margin-top: 1.625rem;
-	text-decoration: none;
-	
+		margin-top: 1.625rem;
+		text-decoration: none;
+
 	@media screen and (min-width: 960px) {
 		position: fixed;
 		margin: 0;

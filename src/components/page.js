@@ -4,9 +4,22 @@ import PropTypes from 'prop-types'
 
 const Page = styled.div`
 	margin-bottom: 3.25rem;
+	position: relative;
 
 	@media screen and (min-width: 685px) {
 		width: calc(58.275% - 0.78125rem);
+
+		:before {
+			background: #e6e6e6;
+			background: linear-gradient(180deg, #e6e6e6 0, #e6e6e6 48%, #fff);
+			position: absolute;
+			content: '';
+			width: 0.0625rem;
+			height: 100%;
+			top: 30px;
+			left: -10px;
+			bottom: 0;
+		}
 
 		:nth-child(1n) {
 			float: left;

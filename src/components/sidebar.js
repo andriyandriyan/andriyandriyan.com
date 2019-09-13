@@ -45,18 +45,6 @@ const SidebarInner = styled.div`
 
 	@media screen and (min-width: 685px) {
 		padding: 1.875rem 1.25rem 0;
-
-		:after {
-			background: #e6e6e6;
-			background: linear-gradient(180deg, #e6e6e6 0, #e6e6e6 48%, #fff);
-			position: absolute;
-			content: '';
-			width: 0.0625rem;
-			height: 540px;
-			top: 30px;
-			right: -10px;
-			bottom: 0;
-		}
 	}
 
 	@media screen and (min-width: 960px) {
